@@ -63,7 +63,7 @@ EOF
 
 echo "***********************************************"
 echo "**Enviando email .............................*"
-mutt -s "Depueracion de Datos BANNERDB" -a $ORACLE_HOME/scripts/depura_datos.log iacosta@uniminuto.edu < $ORACLE_HOME/scripts/correo_body.txt
+mutt -s "Depueracion de Datos BANNERDB" -a $ORACLE_HOME/scripts/depura_datos.log my@email.edu < $ORACLE_HOME/scripts/correo_body.txt
 echo "** Proceso Finalizado .....................OK.*"
 echo "***********************************************"
 echo "================================================"
